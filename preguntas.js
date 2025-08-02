@@ -69,7 +69,7 @@ let estacion = params.get("estacion");
 
 function sacarPregunta(estacion) {
 
-    if (estacion != nill){
+    if (estacion != null){
         let estacion_nr = est2numb.get(estacion);
     
         if (estacion_nr == null)
