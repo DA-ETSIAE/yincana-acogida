@@ -76,6 +76,7 @@ function sacarPregunta(estacion) {
             window.location.replace("https://aeroespacial.da.upm.es/yincana/");
 
         var preguntas = matriz_preguntas[estacion_nr];
+        document.getElementById("estacion").innerHTML = estacion;
         document.getElementById("pregunta").innerHTML = preguntas[Math.floor(Math.random() * preguntas.length)];
     }
 }
