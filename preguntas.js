@@ -79,6 +79,6 @@ function sacarPregunta(estacion) {
   }else{
         document.getElementById("estacion").innerHTML = "Jornada de Acogida";
         document.getElementById("estacion").innerHTML = "Delegación de Alumnos ETSIAE";
-        
+        }
 }
 
