@@ -67,11 +67,13 @@ let params = new URLSearchParams(document.location.search);
 let estacion = params.get("estacion");
 
 function sacarPregunta(estacion) {
-  let estacion_nr = est2numb.get(estacion);
+        console.log(estacion);
 
   if(estacion != null){
-        if (estacion_nr == null)
-                  window.location.replace("https://aeroespacial.da.upm.es/yinkana/");
+        let estacion_nr = est2numb.get(estacion);
+        if (estacion_nr == null){
+                  window.location.replace("https://aeroespacial.da.upm.es/yincana/");
+        }
         var preguntas = matriz_preguntas[estacion_nr]; 
         document.getElementById("pregunta").innerHTML = preguntas[Math.floor(Math.random() * preguntas.length)];
   }else{
