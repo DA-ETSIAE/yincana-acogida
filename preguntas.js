@@ -41,7 +41,28 @@ var preguntas_a015 = ['Pregunta18'];
 var preguntas_biblioteca = ['Pregunta19'];
 
 
-var matriz_preguntas = [preguntas_hangar, preguntas_edifa];
+var matriz_preguntas = [
+  preguntas_avion,
+  preguntas_hallc,
+  preguntas_hangar,
+  preguntas_iberia,
+  preguntas_cdc,
+  preguntas_airbus,
+  preguntas_edifb,
+  preguntas_secretaria,
+  preguntas_helicoptero,
+  preguntas_barcala,
+  preguntas_e3,
+  preguntas_cafeteria,
+  preguntas_asociaciones,
+  preguntas_publicaciones,
+  preguntas_e1,
+  preguntas_claustro,
+  preguntas_e2,
+  preguntas_a015,
+  preguntas_biblioteca,
+];
+
 
 function sacarPregunta(estacion) {
   let estacion_nr = est2numb.get(estacion);
