@@ -77,4 +77,5 @@ function sacarPregunta(estacion) {
 
         var preguntas = matriz_preguntas[estacion_nr];
         document.getElementById("pregunta").innerHTML = preguntas[Math.floor(Math.random() * preguntas.length)];
+    }
 }
