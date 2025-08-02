@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Yinkana</title>
+    <script src="preguntas.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #0b1c2c;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .contenido {
+            max-width: 90%;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 4.5em;
+            margin-bottom: 0.5em;
+            color: #00bfff;
+        }
+
+        p {
+            font-size: 3em;
+            line-height: 1.6;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="contenido">
+        <h1 id="estacion">Estación</h1>
+        <p id="pregunta">Pregunta</p>
+    </div>
+</body>
+</html>
+
+<script>
+let params = new URLSearchParams(document.location.search);
+let estacion = params.get("estacion");
+
+window.onload = function(){
+        sacarPregunta(estacion);
+        document.getElementById("estacion").innerHTML = estacion;
+        document.cookie = estacion;
+}
+</script>
+
