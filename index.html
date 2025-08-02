@@ -45,13 +45,9 @@
 </html>
 
 <script>
-let params = new URLSearchParams(document.location.search);
-let estacion = params.get("estacion");
-
 window.onload = function(){
         sacarPregunta(estacion);
         document.getElementById("estacion").innerHTML = estacion;
-        document.cookie = estacion;
 }
 </script>
 
