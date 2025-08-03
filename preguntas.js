@@ -39,7 +39,7 @@ function sacarPregunta(){
     if(siguiente_estacion != null){
         document.getElementById("estacion_next").innerHTML = "</b>Próxima Estación</b>: " + "<i>" + siguiente_estacion + "</i>";
     }else{
-        document.getElementById("estacion_next").innerHTML = "¡Última Estación!;
+        document.getElementById("estacion_next").innerHTML = "¡Última Estación!";
     }
 
 }
