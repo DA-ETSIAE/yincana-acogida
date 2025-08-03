@@ -21,25 +21,25 @@ const est2numb = new Map([
 ]);
 
 
-var preguntas_avion = ['Pregunta1'];
-var preguntas_hallc = ['Pregunta2'];
-var preguntas_hangar = ['Pregunta3'];
-var preguntas_iberia = ['Pregunta4'];
-var preguntas_cdc = ['Pregunta5'];
-var preguntas_airbus = ['Pregunta6'];
-var preguntas_edifb = ['Pregunta7'];
-var preguntas_secretaria = ['Pregunta8'];
-var preguntas_helicoptero = ['Pregunta9'];
-var preguntas_barcala = ['Pregunta10'];
-var preguntas_e3 = ['Pregunta11'];
-var preguntas_cafeteria = ['Pregunta12'];
-var preguntas_asociaciones = ['Pregunta13'];
-var preguntas_publicaciones = ['Pregunta14'];
-var preguntas_e1 = ['Pregunta15'];
-var preguntas_claustro = ['Pregunta16'];
-var preguntas_e2 = ['Pregunta17'];
-var preguntas_a015 = ['Pregunta18'];
-var preguntas_biblioteca = ['Pregunta19'];
+var preguntas_avion = ['¿A quién perteneció el avión que está en la cuesta de la ETSIAE?'];
+var preguntas_hallc = ['¿Cuantas etapas (anillos) de alabes tiene el compresor pintado de azul?'];
+var preguntas_hangar = ['¿Que avión se encuentra en el centro del hangar?'];
+var preguntas_iberia = ['Recuperando datos. Espere unos segundos e intente cortar o copiar de nuevo.'];
+var preguntas_cdc = ['¿Qué tengo que hacer para acceder desde casa al centro de cálculo?'];
+var preguntas_airbus = ['¿Que aeronaves hay en la puerta principal? '];
+var preguntas_edifb = ['¿Quién inauguró el edificio B? '];
+var preguntas_secretaria = ['¿A que edificio pertenece la secretaría de alumnos? '];
+var preguntas_helicoptero = ['¿Qué distintivo de cola tiene? ¿Qué significa? '];
+var preguntas_barcala = ['Quién fue Miguel Ángel Barcala'];
+var preguntas_e3 = ['¿Que no se puede hacer si estás esperando a entrar en un exámen en la E3? '];
+var preguntas_cafeteria = ['¿A cuánto está el bocata lomo-queso? '];
+var preguntas_asociaciones = ['¿A quién tengo que llamar si quiero apuntarme a Balonmano? '];
+var preguntas_publicaciones = ['¿Dónde está el timbre? ¿Qué horario tiene? '];
+var preguntas_e1 = ['¿Qué puedo tirar en un contenedor especial mientras espero a un examen? '];
+var preguntas_claustro = ['¿Cuantos cuadros de antiguos directores hay?'];
+var preguntas_e2 = ['¿Cuantas columnas de sillas hay?'];
+var preguntas_a015 = ['¿Quién da nombre a esta aula? ¿Que hizo?'];
+var preguntas_biblioteca = ['¿Cuántas taquillas hay de préstamos de portátil?'];
 
 
 var matriz_preguntas = [
