@@ -31,9 +31,10 @@ function sacarPregunta(){
     }
 
     const preguntas = estaciones[estacion];
+    const estacion_nr = ordenEstaciones.indexOf(estacion);
 
     document.getElementById("estacion").innerHTML = estacion;
     document.getElementById("pregunta").innerHTML = preguntas[Math.floor(Math.random() * preguntas.length)];
-    document.getElementById("estacion_next").innerHTML = ordenEstaciones.indexOf(estacion+1);
+    document.getElementById("estacion_next").innerHTML = ordenEstaciones[estacion_nr+1];
 
 }
