@@ -31,10 +31,15 @@ function sacarPregunta(){
     }
 
     const preguntas = estaciones[estacion];
-    const estacion_nr = ordenEstaciones.indexOf(estacion);
+    const siguiente_estacion = ordenEstaciones[ordenEstaciones.indexOf(estacion)+1]
 
     document.getElementById("estacion").innerHTML = estacion;
     document.getElementById("pregunta").innerHTML = preguntas[Math.floor(Math.random() * preguntas.length)];
-    document.getElementById("estacion_next").innerHTML = "</b>Próxima Estación</b>: " + "<i>" + ordenEstaciones[estacion_nr+1] + "</i>";
+
+    if(siguiente_estacion != null{
+        document.getElementById("estacion_next").innerHTML = "</b>Próxima Estación</b>: " + "<i>" + siguiente_estacion + "</i>";
+    }else{
+        document.getElementById("estacion_next").innerHTML = "¡Última Estación!;
+    }
 
 }
