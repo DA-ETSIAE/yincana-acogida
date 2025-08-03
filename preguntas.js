@@ -23,7 +23,7 @@ const est2numb = new Map([
 
 var preguntas_avion = ['¿A quién perteneció el avión que está en la cuesta de la ETSIAE?'];
 var preguntas_hallc = ['¿Cuantas etapas (anillos) de alabes tiene el compresor pintado de azul?'];
-var preguntas_hangar = ['a', '¿Que avión se encuentra en el centro del hangar?'];
+var preguntas_hangar = ['¿Qué avión se encuentra en el centro del hangar?'];
 var preguntas_iberia = ['Recuperando datos. Espere unos segundos e intente cortar o copiar de nuevo.'];
 var preguntas_cdc = ['¿Qué tengo que hacer para acceder desde casa al centro de cálculo?'];
 var preguntas_airbus = ['¿Que aeronaves hay en la puerta principal? '];
