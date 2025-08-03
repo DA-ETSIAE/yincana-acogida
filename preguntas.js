@@ -35,6 +35,6 @@ function sacarPregunta(){
 
     document.getElementById("estacion").innerHTML = estacion;
     document.getElementById("pregunta").innerHTML = preguntas[Math.floor(Math.random() * preguntas.length)];
-    document.getElementById("estacion_next").innerHTML = ordenEstaciones[estacion_nr+1];
+    document.getElementById("estacion_next").innerHTML = "</b>Próxima Estación</b> " + ordenEstaciones[estacion_nr+1];
 
 }
