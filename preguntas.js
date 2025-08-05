@@ -25,7 +25,7 @@ const ordenEstaciones = Object.keys(estaciones);
 function sacarPregunta(){
     const estacion = new URLSearchParams(document.location.search).get("estacion");
     
-    if (!estacion || !estaciones.hasOwnProperty(estacion)) {
+    if ((!estacion || !estaciones.hasOwnProperty(estacion)) && window.location.pathname !== "yincana") {
         window.location.replace("https://aeroespacial.da.upm.es/yincana/");
         return;
     }
