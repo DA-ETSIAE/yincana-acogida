@@ -25,8 +25,8 @@ const ordenEstaciones = Object.keys(estaciones);
 function sacarPregunta(){
     const estacion = new URLSearchParams(document.location.search).get("estacion");
     
-    if ((!estacion || !estaciones.hasOwnProperty(estacion)) && window.location.pathname !== "yincana") {
-        window.location.replace("https://aeroespacial.da.upm.es/yincana/");
+    if (!estacion || !estaciones.hasOwnProperty(estacion)) {
+        window.location.replace("https://aeroespacial.da.upm.es/yinkana/?estacion=Avión");
         return;
     }
 
