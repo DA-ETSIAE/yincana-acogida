@@ -2,7 +2,7 @@ const estaciones = {
     "Avión": ['¿A quién perteneció el avión que está en la cuesta de la ETSIAE?', '¿Cual era el apodo de este avión?', '¿Cuándo fue el primer vuelo de este avión?'],
     "Hall Edificio C": ['¿Cuántas etapas (anillos) de alabes tiene el compresor pintado de azul?'],
     "Hangar": ['¿Qué avión se encuentra en el centro del hangar?'],
-    "Aula Iberia": ['¿Qué simulador se utiliza en esta aula?', '¿Qué es lo primero que tengo que hacer para abrir la puerta de un avión? ],
+    "Aula Iberia": ['¿Qué simulador se utiliza en esta aula?', '¿Qué es lo primero que tengo que hacer para abrir la puerta de un avión?' ],
     "Centro de Cálculo": ['¿Qué tengo que hacer para acceder desde casa al centro de cálculo?'],
     "Aula Airbus": ['¿Qué aeronaves hay en la puerta principal? '],
     "Edificio B": ['¿Quién inauguró el edificio B? '],
