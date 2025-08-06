@@ -17,7 +17,7 @@ const estaciones = {
     "Claustro": ['¿Cuántos cuadros de antiguos directores hay?'],
     "E2": ['¿Cuántas columnas de sillas hay?'],
     "A015": ['¿Quién da nombre a esta aula? ¿Qué hizo?'],
-    "Biblioteca A": ['¿Cuántas taquillas hay de préstamos de portátil?']
+    "Biblioteca": ['¿Cuántas taquillas hay de préstamos de portátil?']
 };
 
 const ordenEstaciones = Object.keys(estaciones);
