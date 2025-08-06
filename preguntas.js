@@ -12,7 +12,7 @@ const estaciones = {
     "E3": ['¿Qué no se puede hacer si estás esperando a entrar en un exámen en la E3? '],
     "Cafetería": ['¿A cuánto está el bocata lomo-queso? ', '¿Desde qué dos edificios se puede acceder a la cafetería?'],
     "Asociaciones": ['¿A quién tengo que llamar si quiero apuntarme a Balonmano? '],
-    "Publicaciones": ['¿Dónde está el timbre? ¿Qué horario tiene?'],
+    "Publicaciones": ['¿Dónde está el timbre?', '¿Qué horario tiene?'],
     "E1": ['¿Qué puedo tirar en un contenedor especial mientras espero a un examen? '],
     "Claustro": ['¿Cuántos cuadros de antiguos directores hay?'],
     "E2": ['¿Cuántas columnas de sillas hay?'],
