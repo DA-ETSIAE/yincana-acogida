@@ -48,7 +48,7 @@ function sacarPregunta() {
         "<b>Próxima Estación</b>: " +
         "<i>" +
         siguiente_estacion +
-        "(B-202) </i>";
+        " (B-202) </i>";
     } else {
       document.getElementById("estacion_next").innerHTML =
         "<b>Próxima Estación</b>: " + "<i>" + siguiente_estacion + "</i>";
