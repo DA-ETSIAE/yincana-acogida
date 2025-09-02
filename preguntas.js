@@ -1,5 +1,5 @@
 const estaciones = {
-  Avión: [
+  "Avión": [
     "¿A quién perteneció el avión que está en la cuesta de la ETSIAE?",
     "¿Cual era el apodo de este avión?",
     "¿Cuándo fue el primer vuelo de este avión?",
@@ -7,7 +7,7 @@ const estaciones = {
   "Hall Edificio C": [
     "¿Cuántas etapas (anillos) de alabes tiene el compresor pintado de azul?",
   ],
-  Hangar: ["¿Qué avión se encuentra en el centro del hangar?"],
+  "Hangar": ["¿Qué avión se encuentra en el centro del hangar?"],
   "Aula Iberia": [
     "¿Qué simulador se utiliza en esta aula?",
     "¿Qué es lo primero que tengo que hacer para abrir la puerta de un avión?",
@@ -17,28 +17,28 @@ const estaciones = {
   ],
   "Aula Airbus": ["¿Qué aeronaves hay en la puerta principal? "],
   "Edificio B": ["¿Quién inauguró el edificio B? "],
-  Secretaría: ["¿A qué edificio pertenece la secretaría de alumnos? "],
-  Helicóptero: ["¿Qué distintivo de cola tiene? ¿Qué significa? "],
+  "Secretaría": ["¿A qué edificio pertenece la secretaría de alumnos? "],
+  "Helicóptero": ["¿Qué distintivo de cola tiene? ¿Qué significa? "],
   "Aula Miguel Ángel Barcala": [
     "¿Quién fue Miguel Ángel Barcala?",
     "¿De qué año a que año fue director de la EUITA Miguel Ángel Barcala?",
   ],
-  E3: [
+  "E3": [
     "¿Qué no se puede hacer si estás esperando a entrar en un exámen en la E3? ",
   ],
-  Cafetería: [
+  "Cafetería": [
     "¿A cuánto está el bocata lomo-queso? ",
     "¿Desde qué dos edificios se puede acceder a la cafetería?",
   ],
-  Asociaciones: ["¿A quién tengo que llamar si quiero apuntarme a Balonmano? "],
-  Publicaciones: ["¿Dónde está el timbre?", "¿Qué horario tiene?"],
-  E1: [
+  "Asociaciones": ["¿A quién tengo que llamar si quiero apuntarme a Balonmano? "],
+  "Publicaciones": ["¿Dónde está el timbre?", "¿Qué horario tiene?"],
+  "E1": [
     "¿Qué puedo tirar en un contenedor especial mientras espero a un examen? ",
   ],
-  Claustro: ["¿Cuántos cuadros de antiguos directores hay?"],
-  E2: ["¿Cuántas columnas de sillas hay?"],
-  A015: ["¿Quién da nombre a esta aula? ¿Qué hizo?"],
-  Biblioteca: ["¿Cuántas taquillas hay de préstamos de portátil?"],
+  "Claustro": ["¿Cuántos cuadros de antiguos directores hay?"],
+  "E2": ["¿Cuántas columnas de sillas hay?"],
+  "A015": ["¿Quién da nombre a esta aula? ¿Qué hizo?"],
+  "Biblioteca": ["¿Cuántas taquillas hay de préstamos de portátil?"],
 };
 
 const ordenEstaciones = Object.keys(estaciones);
@@ -80,7 +80,3 @@ function sacarPregunta() {
   }
 }
 
-        document.getElementById("estacion_next").innerHTML = "<b>Próxima Estación</b>: " + "<i>" + ordenEstaciones[0] + "</i>";
-    }
-
-}
