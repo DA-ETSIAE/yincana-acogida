@@ -7,15 +7,15 @@ const estaciones = {
     "Aula Airbus": ['¿Qué aeronaves hay en la puerta principal? '],
     "Edificio B": ['¿Quién inauguró el edificio B? '],
     "Secretaría": ['¿A qué edificio pertenece la secretaría de alumnos? '],
+    "Laboratorio de Química": ['¿Que se puede hacer en las prácticas de este laboratorio? '],
     "Helicóptero": ['¿Qué distintivo de cola tiene? ¿Qué significa? '],
     "E3": ['¿Qué no se puede hacer si estás esperando a entrar en un exámen en la E3? '],
+    "Laboratorio de Física": ['¿Donde se ubíca este laboratorio?? '],
     "Cafetería": ['¿A cuánto está el bocata lomo-queso? ', '¿Desde qué dos edificios se puede acceder a la cafetería?'],
     "Asociaciones": ['¿A quién tengo que llamar si quiero apuntarme a Balonmano? '],
     "Publicaciones": ['¿Dónde está el timbre?', '¿Qué horario tiene?'],
     "E1": ['¿Qué puedo tirar en un contenedor especial mientras espero a un examen? '],
     "Claustro": ['¿Cuántos cuadros de antiguos directores hay?'],
-    "E2": ['¿Cuántas columnas de sillas hay?'],
-    "A015": ['¿Quién da nombre a esta aula? ¿Qué hizo?'],
     "Biblioteca": ['¿Cuántas taquillas hay de préstamos de portátil?']
 };
 
