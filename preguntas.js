@@ -8,7 +8,6 @@ const estaciones = {
     "Edificio B": ['¿Quién inauguró el edificio B? '],
     "Secretaría": ['¿A qué edificio pertenece la secretaría de alumnos? '],
     "Helicóptero": ['¿Qué distintivo de cola tiene? ¿Qué significa? '],
-    "Aula Miguel Ángel Barcala": ['¿Quién fue Miguel Ángel Barcala?','¿De qué año a que año fue director de la EUITA Miguel Ángel Barcala?'],
     "E3": ['¿Qué no se puede hacer si estás esperando a entrar en un exámen en la E3? '],
     "Cafetería": ['¿A cuánto está el bocata lomo-queso? ', '¿Desde qué dos edificios se puede acceder a la cafetería?'],
     "Asociaciones": ['¿A quién tengo que llamar si quiero apuntarme a Balonmano? '],
