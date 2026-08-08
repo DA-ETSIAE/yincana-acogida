@@ -33,6 +33,7 @@ function sacarPregunta() {
   }
 
   const preguntas = estaciones[estacion];
+  const indiceEstacion = ordenEstaciones.indexOf(estacion);
   const siguienteEstacion =
     ordenEstaciones[indiceEstacion + 1] ?? ordenEstaciones[0];
 
