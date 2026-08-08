@@ -33,27 +33,15 @@ function sacarPregunta() {
   }
 
   const preguntas = estaciones[estacion];
-  const siguiente_estacion =
-    ordenEstaciones[ordenEstaciones.indexOf(estacion) + 1];
+  const siguienteEstacion =
+    ordenEstaciones[indiceEstacion + 1] ?? ordenEstaciones[0];
 
-  document.getElementById("estacion").innerHTML = estacion;
-  document.getElementById("pregunta").innerHTML =
+  document.getElementById("estacion").textContent = estacion;
+
+  document.getElementById("pregunta").textContent =
     preguntas[Math.floor(Math.random() * preguntas.length)];
 
-  if (siguiente_estacion != null) {
-    if (estacion == "Helicóptero") {
-      document.getElementById("estacion_next").innerHTML =
-        "<b>Próxima Estación</b>: " +
-        "<i>" +
-        siguiente_estacion +
-        " (B-202) </i>";
-    } else {
-      document.getElementById("estacion_next").innerHTML =
-        "<b>Próxima Estación</b>: " + "<i>" + siguiente_estacion + "</i>";
-    }
-  } else {
-    document.getElementById("estacion_next").innerHTML =
-      "<b>Próxima Estación</b>: " + "<i>" + ordenEstaciones[0] + "</i>";
-  }
+  document.getElementById("estacion_next").innerHTML =
+    `<b>Próxima estación</b>: <i>${siguienteEstacion}</i>`;
 }
 
